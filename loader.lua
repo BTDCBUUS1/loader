@@ -1,5 +1,7 @@
 -- loader
 
+getgenv().Loader = true
+
 if game.PlaceId == 95557214969049 then
     pcall(function()
         
