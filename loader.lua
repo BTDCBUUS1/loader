@@ -4,7 +4,7 @@ getgenv().Loader = true
 
 if game.PlaceId == 95557214969049 then
     pcall(function()
-        
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/BTDCBUUS1/Assets/refs/heads/main/jetpack.lua"))() -- jetpack
     end)
 elseif game.PlaceId == 137681066791460 or game.Workspace:FindFirstChild("Enemies") then
     getgenv().ShowGui = true
